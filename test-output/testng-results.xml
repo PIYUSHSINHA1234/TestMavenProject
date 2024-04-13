@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-10T23:20:48 IST" name="Suite" finished-at="2024-04-10T23:21:00 IST" duration-ms="12804">
+    <groups>
+    </groups>
+    <test started-at="2024-04-10T23:20:48 IST" name="LoginApplication" finished-at="2024-04-10T23:21:00 IST" duration-ms="12804">
+      <class name="com.testmaven.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testmaven.testcases.LoginTest@74e52ef6]" started-at="2024-04-10T23:20:42 IST" name="setup" finished-at="2024-04-10T23:20:48 IST" duration-ms="5148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dologin(java.lang.String,java.lang.String)[pri:0, instance:com.testmaven.testcases.LoginTest@74e52ef6]" started-at="2024-04-10T23:20:50 IST" name="dologin" data-provider="dp" finished-at="2024-04-10T23:21:00 IST" duration-ms="10574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testmaven.testcases.LoginTest@74e52ef6]" started-at="2024-04-10T23:21:01 IST" name="teardown" finished-at="2024-04-10T23:21:02 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testmaven.testcases.LoginTest -->
+    </test> <!-- LoginApplication -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,3 @@
+INFO    2024-04-10 23:22:06,743 [main] com.testmaven.base.Base  - Configure Properties file loaded successfully
+INFO    2024-04-10 23:22:06,745 [main] com.testmaven.base.Base  - OR properties file loaded
+INFO    2024-04-10 23:22:11,367 [main] com.testmaven.base.Base  - --ChromeDriver Launched---
